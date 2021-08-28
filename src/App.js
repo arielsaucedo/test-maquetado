@@ -1,9 +1,10 @@
 import React from 'react';
+import { HomeScreen } from './components/pages/HomeScreen';
 
 const App = () => {
   return (
     <div>
-      <h1>Glamit Test</h1>
+      <HomeScreen />
     </div>
   );
 };
