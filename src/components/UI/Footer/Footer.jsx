@@ -6,15 +6,16 @@ export const Footer = () => {
 
   return (
     <Stack backgroundColor="#100217E6">
-      <Box fontSize="16px" m="2" textAlign="center">
+      <Box
+        display={{ base: 'block', lg: 'flex' }}
+        fontSize="16px"
+        justifyContent="center"
+        m="2"
+        textAlign="center"
+      >
         {linksFooter.map((link, index) => (
-          <Link key={index}>
-            <Text
-              _hover={{ textDecoration: 'none', color: 'blue.200' }}
-              color="white"
-              mb="2"
-              mt="2"
-            >
+          <Link key={index} mr={{ base: '0', lg: '10' }}>
+            <Text _hover={{ textDecoration: 'none', color: 'blue.200' }} color="white" m="2">
               {link}
             </Text>
           </Link>

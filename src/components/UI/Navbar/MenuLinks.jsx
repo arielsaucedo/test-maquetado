@@ -7,6 +7,7 @@ export const MenuLinks = ({ isOpen }) => {
     <Box
       display={{ base: isOpen ? 'flex' : 'none', md: 'block' }}
       flex={{ base: 1 }}
+      marginBottom={{ base: 5, lg: 1 }}
       marginRight={5}
       marginTop={{ base: 5, lg: 1 }}
       order={{ base: 1 }}
