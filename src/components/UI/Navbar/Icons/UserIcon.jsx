@@ -3,7 +3,7 @@ import { Icon } from '@chakra-ui/react';
 
 export const UserIcon = () => {
   return (
-    <Icon style={{ width: '21px', height: '24px' }}>
+    <Icon style={{ width: '21px', height: '24px', color: 'white' }}>
       <svg
         aria-hidden="true"
         className="svg-inline--fa fa-user fa-w-14"

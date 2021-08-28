@@ -3,7 +3,7 @@ import { Icon } from '@chakra-ui/react';
 
 export const CartIcon = () => {
   return (
-    <Icon style={{ width: '27px', height: '23px' }}>
+    <Icon style={{ width: '27px', height: '23px', color: 'white' }}>
       <svg
         aria-hidden="true"
         className="svg-inline--fa fa-bars fa-w-14"

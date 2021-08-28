@@ -3,7 +3,7 @@ import { Icon } from '@chakra-ui/react';
 
 export const SearchIcon = () => {
   return (
-    <Icon style={{ width: '24px', height: '24px' }}>
+    <Icon style={{ width: '24px', height: '24px', color: 'white' }}>
       <svg
         aria-hidden="true"
         className="svg-inline--fa fa-search fa-w-16"
