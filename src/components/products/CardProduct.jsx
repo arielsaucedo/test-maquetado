@@ -8,10 +8,10 @@ export const CardProduct = ({ img, title, price }) => {
       <Box>
         <Box border="1px solid #030B1C" />
       </Box>
-      <Text fontSize="20px" mt="3">
+      <Text fontSize={{ base: '20px', lg: '16px' }} mt="3">
         {title}
       </Text>
-      <Text fontSize="20px" fontWeight="bold">
+      <Text fontSize={{ base: '20px', lg: '16px' }} fontWeight="bold">
         {price}
       </Text>
     </Box>
