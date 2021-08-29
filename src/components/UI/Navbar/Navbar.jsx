@@ -24,7 +24,7 @@ export const Navbar = () => {
       </Flex>
       <Flex justifyContent="center">
         <Box>
-          <MenuLinks />
+          <MenuLinks isOpen={isOpen} />
         </Box>
       </Flex>
     </Box>

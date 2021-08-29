@@ -9,15 +9,14 @@ export const MenuLinks = ({ isOpen }) => {
       flex={{ base: 1 }}
       marginBottom={{ base: 5, lg: 1 }}
       marginRight={5}
-      marginTop={{ base: 5, lg: 1 }}
-      order={{ base: 1 }}
+      marginTop={{ base: 2, lg: 1 }}
     >
       <Stack
         alignItems="center"
-        direction={['column', 'column', 'row', 'row']}
-        justify={['center, space-between', 'flex-start', 'flex-start']}
-        pt={[4, 4, 0, 0]}
-        spacing={20}
+        direction={{ base: 'column', lg: 'row' }}
+        justify={{ base: 'center', lg: 'flex-start' }}
+        pt={{ base: 2, lg: 0 }}
+        spacing={{ base: 3, lg: 20 }}
         width="100%"
       >
         {listLinks.map((link, index) => (

@@ -7,11 +7,11 @@ export const MenuToggle = ({ isOpen, toggle }) => {
   return (
     <Box display={{ base: 'block', lg: 'none' }} onClick={toggle}>
       {isOpen ? (
-        <Button colorScheme="transparent" float="right">
-          <CloseIcon />
+        <Button colorScheme="transparent">
+          <CloseIcon style={{ width: '27px', height: '24px', color: 'white' }} />
         </Button>
       ) : (
-        <Button colorScheme="transparent" float="right">
+        <Button colorScheme="transparent">
           <CartIcon />
         </Button>
       )}
