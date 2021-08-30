@@ -1,7 +1,7 @@
 # Framework para el challenge y usos
-Se utilizo Chrakra UI para el manejo de componentes y estilos.
+Se utilizo Chakra UI para el manejo de componentes y estilos.
 
-Situarse en la carpetal de proyecto. Instalar las dependencias ejecutando el comando "yarn install".
+Situarse en la carpeta del proyecto. Instalar las dependencias ejecutando el comando "yarn install".
 Una vez finalizado, ejecutar el comando "yarn start" para iniciar el proyecto.
 # Ejercicio de maquetado html & css
 En el siguiente vínculo vas a encontrar el diseño de una web hecho en Adobe XD, en versión desktop y mobile:
