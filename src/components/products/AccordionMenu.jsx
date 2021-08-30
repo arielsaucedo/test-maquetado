@@ -11,7 +11,7 @@ import React from 'react';
 
 export const AccordionMenu = ({ name, menu }) => {
   return (
-    <Accordion allowToggle>
+    <Accordion allowMultiple>
       <AccordionItem>
         <AccordionButton backgroundColor="#E4E8EE">
           <Box flex="1" fontSize="16px" fontWeight="bold" ml="5" textAlign="left">
