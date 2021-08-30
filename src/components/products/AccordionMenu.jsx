@@ -14,10 +14,8 @@ export const AccordionMenu = ({ name, menu }) => {
     <Accordion allowToggle>
       <AccordionItem>
         <AccordionButton backgroundColor="#E4E8EE">
-          <Box flex="1">
-            <Text fontSize="16px" fontWeight="bold" ml="5" textAlign="left">
-              {name}
-            </Text>
+          <Box flex="1" fontSize="16px" fontWeight="bold" ml="5" textAlign="left">
+            {name}
           </Box>
           <AccordionIcon />
         </AccordionButton>

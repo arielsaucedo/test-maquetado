@@ -5,7 +5,7 @@ import { CartIcon } from './Icons/HamburguerIcon';
 
 export const MenuToggle = ({ isOpen, toggle }) => {
   return (
-    <Box display={{ base: 'block', lg: 'none' }} onClick={toggle}>
+    <Box display={{ base: 'block', lg: 'none' }} ml="1" onClick={toggle}>
       {isOpen ? (
         <Button colorScheme="transparent">
           <CloseIcon style={{ width: '27px', height: '24px', color: 'white' }} />
