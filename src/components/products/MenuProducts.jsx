@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Text } from '@chakra-ui/react';
 
-import { categories } from '../../data/categories';
-import { sizes } from '../../data/sizes';
-import { colors } from '../../data/colors';
+import { categories } from '../../data/productsFeatures';
+import { sizes } from '../../data/productsFeatures';
+import { colors } from '../../data/productsFeatures';
 import { AccordionMenu } from './AccordionMenu';
 
 export const MenuProducts = () => {
